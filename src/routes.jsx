@@ -4,7 +4,6 @@ import Home from './containers/Home/Home';
 import App from './containers/App/App';
 import Projects from './containers/Projects/Projects'
 import Aboutme from './containers/Aboutme/Aboutme'
-import FAQ from './containers/FAQ/FAQ'
 
 
 export default (
@@ -13,7 +12,6 @@ export default (
             <IndexRoute component= {Home}/>
             <Route path = '/projects' component = {Projects}/>
             <Route path = '/aboutme' component = {Aboutme}/>
-            <Route path = "/FAQ" component = {FAQ}/>
         </Route>
     </Router>
 );
